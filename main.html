@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME1</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Protest+Revolution&family=Rubik+Glitch+Pop&family=Rubik+Wet+Paint&display=swap');
+
+body{
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+background-color: #0a0a0a;
+margin: 0%;  color: aliceblue;
+line-height: 1.5;}
+
+/* h2{text-align: center;color:rgb(250, 250, 250);
+text-shadow: 2px 2px 5px #06ffa0;
+font-family:"Protest Revolution", sans-serif;} */
+
+/* h2:hover{box-shadow:0 12px 18px #47f7fd;
+
+} */
+            
+a{ text-decoration: none; color:#8c00ff;  
+}
+
+/* h3,h5,br{text-align: center; }*/
+
+
+
+#showcase
+{ margin: 0%; padding: 0%;background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 50%;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+            }
+/* h5{font-size: large; text-align: center;  } */
+
+#showcase 
+
+.conatiner{
+    margin-top: 18vh; }
+
+nav{display: flex;  width:100%;  color: rgb(51,34,34);justify-content: space-between; padding: 10px 0;}
+
+ nav  ul {list-style: none;
+    width: 100%;
+    padding-right: 60px;
+    text-align:right;
+}
+nav ul li{
+    display:inline ;  margin: 20px 20px;
+}
+nav ul li a {
+     text-decoration: solid;color: rgb(255, 0, 98); 
+}
+nav li:hover{
+    background-color: #edfdf6;
+}
+
+body{
+            /* background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/19863.png); */
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;}    
+            
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffe5f9;
+    text-shadow: 1px 1px 6px #1a001f;
+} */
+
+   .container1{
+        margin: 100px 0 0 200px;
+        width:70%;
+        display:flex;
+        justify-content:center;
+        gap: 10px;
+        padding: 10px 8px;
+
+    }
+    .container1 img{
+         width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid rgb(red, green, blue);
+        transition: all ease-in-out 0.5;
+        outline-color: aqua; 
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .container1 img:hover{
+        width: 25%;
+        box-shadow:0 12px 18px #47f7fd;
+    }
+
+
+.logo{
+    width: 85px;
+    cursor: pointer;  
+}
+  
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* .slider1{
+  position:relative;
+  width: 200px;
+  height: 200px;
+  transform-style:preserve-3d ;
+  animation: rotate 30s linear infinite;
+} */
+
+
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.slider1{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate{
+  0%{
+   transform: perspective(1000px) rotateY(0deg);  
+ }
+ 100%{
+  transform: perspective(1000px)  rotateY(360deg);
+ }
+}
+.slider1 span{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transform-origin:bottom;
+transform-style: preserve-3d;
+transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+
+.slider1 span img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 2s;
+  
+}
+
+.slider1 span:hover img{
+  transform: translateY(50px) scale(1.2);
+} */
+    </style>
+</head>
+<body>
+
+        <header>
+          <nav>
+            <image src="https://www.nicepng.com/png/full/140-1402706_anime-logo-png.png" class="logo">
+              <ul>
+              <li>
+                  <a href="ANIME HUB!.html">ANIME HUB!</a>
+              </li>
+              <li>
+                  <a href=".html">VIDEO</a>
+              </li>
+               <li>
+                   <a href="https://open.spotify.com/playlist/08plNkwnNOEc5Vz80TNxjl?si=_PwEiPz8QweoIBRdr23MQg.html">SONGS</a>
+               </li>
+               <!-- <li>
+                    <a href="https://globalcomix.com/browse/comics/.html">COMICS</a>
+               </li> -->
+  
+  
+                </ul>
+        </header>
+      </div>
+      
+
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="https://slidechef.net/wp-content/uploads/2022/06/Anime-Style-Welcome-Template-1024x576.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://slidechef.net/wp-content/uploads/2022/06/Free-Anime-Characters-1024x576.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="https://slidechef.net/wp-content/uploads/2022/06/Free-Anime-1024x576.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="https://slidechef.net/wp-content/uploads/2022/06/Naruto-Slides-1024x576.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="https://slidechef.net/wp-content/uploads/2022/06/Power-Point-Anime-1024x576.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="https://slidechef.net/wp-content/uploads/2022/06/Anime-Presentation-1-1024x576.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+       
+
+       
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+
+
+    <div id="showcase">
+    <div class="container1">
+        <img src="https://th.bing.com/th/id/OIP.fUIwPxcjT3s08yC2auRwqQAAAA?rs=1&pid=ImgDetMain" alt="images">
+        
+        <img src="https://i.pinimg.com/originals/31/ee/e4/31eee4e586795ca259ab1309c55881b6.png" alt="images">
+        
+        <img src="https://i.pinimg.com/originals/df/48/66/df486637c8d73d91d042f705bcebdf6b.png" alt="images">
+        
+        <img src="https://th.bing.com/th/id/OIP.jY0OcN3a4p1qloj-xRL0JQAAAA?rs=1&pid=ImgDetMain" alt="images">
+        
+        <img src="https://i.pinimg.com/736x/8f/20/ad/8f20ad841f32ad918e102254af75bc2a.jpg" alt="images">
+        
+        <img src="https://th.bing.com/th/id/OIP.SQKL30qeTk2_ZASp1DrCFgAAAA?rs=1&pid=ImgDetMain" alt="images">
+        
+        <img src="https://i.pinimg.com/originals/a4/84/cf/a484cfe2370fb3db90998384722c5914.jpg" alt="images">
+        
+       <img src="https://i.pinimg.com/originals/73/aa/d7/73aad7d42b7c219b5d9be6244b6a8c84.jpg" alt="images">
+      
+       <img src="https://th.bing.com/th/id/OIP.hcV2JDO0AKpm5eaD0eFRYgAAAA?rs=1&pid=ImgDetMain" alt="images">
+      
+        <img src="https://i.pinimg.com/originals/ba/02/2a/ba022a52f54d9cbeb4cece75220ba7cc.jpg" alt="images">
+      
+        <img src="https://i.pinimg.com/736x/3b/63/62/3b6362c220321c331d4af8af8f7f4ddc.jpg" alt="images">
+        
+        <img src="https://th.bing.com/th/id/OIP.hEhbq8mVIe2VCeMIsgaQugHaLH?rs=1&pid=ImgDetMain" alt="images">
+        
+        <span style="--1:13;"> <img src="https://th.bing.com/th/id/OIP.QjBvAHvQInoXLWk3As7rtAAAAA?rs=1&pid=ImgDetMain" alt="images"></span>
+        <!-- <span style="--1:14;"> <img src="" alt="images"></spam>
+        <span style="--1:15;"> <img src="" alt="images"></spam>
+        <span style="--1:16;"> <img src="" alt="images"></spam> -->
+
+
+    </div>
+
+
+
+
+
+    <!-- ----------  SCRIPTs------- -->
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+ function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+
+
+</script>
+
+
+</body>
+</html>

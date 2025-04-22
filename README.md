@@ -1,2 +1,3 @@
-# anime-pages
+# ANIME-HUB
+
 it's my first website 

@@ -6,7 +6,7 @@ it's my first website
 
 - 🔭 I’m currently working on [ANIME-HUb](https://vicky-tec.github.io/anime-pages/)
 
-- 🌱 I’m currently learning **Full stack python development**
+- 🌱 I’m currently learning **Front-end Web development**
 
 - 👨‍💻 All of my projects are available at [https://github.com/vicky-tec/](https://github.com/vicky-tec/)
 

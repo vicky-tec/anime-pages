@@ -2,7 +2,7 @@
 
 it's my first website 
 <h1 align="center">Hi 👋, I'm VICKY RAJ</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate GenFrontend developer from India</h3>
 
 - 🔭 I’m currently working on [ANIME-HUb](https://vicky-tec.github.io/anime-pages/)
 
